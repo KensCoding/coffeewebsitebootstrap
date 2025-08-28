@@ -1,0 +1,189 @@
+/* Color palette */
+:root {
+  --coffee-green: #486b6e;
+  --coffee-cream: #FAEED1;
+  --coffee-tan: #DED0B6;
+  --coffee-brown: #B2A59B;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--coffee-green) !important;
+}
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .dropdown-item {
+  color: var(--coffee-cream) !important;
+}
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  color: var(--coffee-tan) !important;
+}
+
+/* Hero section */
+.container.col-xxl-8 {
+  background: linear-gradient(90deg, var(--coffee-cream) 60%, var(--coffee-tan) 100%);
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 24px rgba(96, 114, 116, 0.08);
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--coffee-green);
+  border-color: var(--coffee-green);
+}
+.btn-primary:hover, .btn-primary:focus {
+  background-color: var(--coffee-brown);
+  border-color: var(--coffee-brown);
+}
+.btn-outline-secondary {
+  color: var(--coffee-green);
+  border-color: var(--coffee-green);
+}
+.btn-outline-secondary:hover, .btn-outline-secondary:focus {
+  background-color: var(--coffee-green);
+  color: var(--coffee-cream);
+  border-color: var(--coffee-green);
+}
+
+/* Feature icons */
+.icon-square, .feature-icon {
+  background-color: var(--coffee-brown) !important;
+  color: var(--coffee-cream) !important;
+}
+
+/* Section backgrounds */
+#hanging-icons {
+  background: var(--coffee-cream);
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Section spacing and separation */
+section,
+.container.col-xxl-8,
+#hanging-icons,
+footer {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 4px 24px rgba(96, 114, 116, 0.07);
+}
+
+/* Add a subtle divider between sections */
+section:not(:last-child),
+.container.col-xxl-8:not(:last-child),
+#hanging-icons:not(:last-child) {
+  border-bottom: 4px solid var(--coffee-brown);
+}
+
+/* Optional: Add background color alternation for sections */
+section:nth-of-type(even),
+#hanging-icons {
+  background: var(--coffee-tan);
+}
+section:nth-of-type(odd),
+.container.col-xxl-8 {
+  background: var(--coffee-cream);
+}
+
+/* Carousel */
+.carousel-inner, .carousel-item img {
+  border-radius: 1rem;
+  background: var(--coffee-tan);
+}
+
+/* Footer */
+footer {
+  background: var(--coffee-green);
+  color: var(--coffee-cream);
+  border-radius: 1rem 1rem 0 0;
+}
+footer .nav-link,
+footer .text-body-secondary {
+  color: var(--coffee-cream) !important;
+}
+footer .nav-link:hover {
+  color: var(--coffee-tan) !important;
+}
+
+/* Dark mode styles */
+body.bg-dark {
+  background: #181818 !important;
+  color: #fff !important;
+}
+
+body.bg-dark .navbar,
+body.bg-dark footer {
+  background: #111 !important;
+  color: #fff !important;
+}
+
+body.bg-dark .navbar .navbar-brand,
+body.bg-dark .navbar .nav-link,
+body.bg-dark .navbar .dropdown-item,
+body.bg-dark footer .nav-link,
+body.bg-dark footer .text-body-secondary {
+  color: #fff !important;
+}
+
+body.bg-dark .container,
+body.bg-dark section,
+body.bg-dark .card,
+body.bg-dark #hanging-icons {
+  background: #222 !important;
+  color: #fff !important;
+  border-radius: 1.25rem;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+}
+
+body.bg-dark .btn-primary,
+body.bg-dark .btn-outline-secondary {
+  background: #333 !important;
+  color: #fff !important;
+  border-color: #444 !important;
+}
+
+body.bg-dark .btn-primary:hover,
+body.bg-dark .btn-outline-secondary:hover {
+  background: #444 !important;
+  color: #fff !important;
+  border-color: #555 !important;
+}
+
+body.bg-dark .feature-icon,
+body.bg-dark .icon-square {
+  background: #333 !important;
+  color: #fff !important;
+}
+
+body.bg-dark hr,
+body.bg-dark .border-bottom {
+  border-color: #444 !important;
+}
+
+/* Ensure all headings are white in dark mode */
+body.bg-dark h1,
+body.bg-dark h2,
+body.bg-dark h3,
+body.bg-dark h4,
+body.bg-dark h5,
+body.bg-dark h6 {
+  color: #fff !important;
+}
+
+/* Optional: Make all text white in dark mode */
+body.bg-dark,
+body.bg-dark p,
+body.bg-dark li,
+body.bg-dark span,
+body.bg-dark a,
+body.bg-dark .lead,
+body.bg-dark .card-title,
+body.bg-dark .card-text {
+  color: #fff !important;
+}
+
+

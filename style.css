@@ -1,9 +1,9 @@
 /* Color palette */
 :root {
-  --coffee-green: #486b6e;
-  --coffee-cream: #FAEED1;
-  --coffee-tan: #DED0B6;
-  --coffee-brown: #B2A59B;
+  --coffee-green: #776B5D;
+  --coffee-cream: #B0A695;
+  --coffee-tan: #EBE3D5;
+  --coffee-brown: #F3EEEA;
 }
 
 /* Navbar */
@@ -68,7 +68,7 @@ footer {
   margin-bottom: 3rem;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
-  border-radius: 1.25rem;
+  border-radius: 1rem;
   box-shadow: 0 4px 24px rgba(96, 114, 116, 0.07);
 }
 
@@ -135,7 +135,7 @@ body.bg-dark .card,
 body.bg-dark #hanging-icons {
   background: #222 !important;
   color: #fff !important;
-  border-radius: 1.25rem;
+  border-radius: 1rem;
   box-shadow: 0 4px 24px rgba(0,0,0,0.15);
 }
 
